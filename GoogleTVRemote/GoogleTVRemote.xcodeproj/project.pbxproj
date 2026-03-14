@@ -18,6 +18,7 @@
 		3C28B97C5DD2F3508FF117A7 /* CertificateGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1EA6E0D9BF745D6240DA08 /* CertificateGeneratorTests.swift */; };
 		4A2607F93FD8845A914B5B25 /* TVDeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1E672C2E0B23CFF9FF266 /* TVDeviceRow.swift */; };
 		5200449A9C2EED66D934CA1E /* ManualIPSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1287616553C76F09DEEA8 /* ManualIPSheet.swift */; };
+		52D4CFE0CE5A106E5E5C8DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305CD03E936104015B2F695F /* LaunchScreen.storyboard */; };
 		537DEA36C1E98642BB97D0E7 /* TVRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200ADBD7C8E80A3DE8A43CA /* TVRemoteService.swift */; };
 		6ADF8E087A5E06E9C7B2BEA2 /* GoogleTVRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BBEFB50B4A4E172F9E775 /* GoogleTVRemoteApp.swift */; };
 		786D0AAD9D3974563362C9CD /* KeychainServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922F19F3E87088B46FD00C5 /* KeychainServiceTests.swift */; };
@@ -66,6 +67,7 @@
 		239FDEE35159E557219D4B32 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		243E6C11BECFC0CDF887B735 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2FD31353A87278BD83340B9E /* WakeOnLANServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLANServiceTests.swift; sourceTree = "<group>"; };
+		305CD03E936104015B2F695F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35852246C24E13362D22EBB1 /* AppIcon.svg */ = {isa = PBXFileReference; path = AppIcon.svg; sourceTree = "<group>"; };
 		445C14629F2635426771678E /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
 		46358CB56269FC3B9AA79215 /* TouchpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchpadView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				683FFAC5A1A5A77D033648C4 /* Info.plist */,
+				305CD03E936104015B2F695F /* LaunchScreen.storyboard */,
 				40BD50BA245B28575FB6F96D /* App */,
 				15427A9A82B1BF4FB585D64A /* Extensions */,
 				9BDEFD191E896177785A1BD4 /* Models */,
@@ -386,6 +389,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					458BA52DAA80AE2D4A8A0C46 = {
+						DevelopmentTeam = L8RV535WTD;
+					};
+				};
 			};
 			buildConfigurationList = 743EAC3E3E324928B0841C14 /* Build configuration list for PBXProject "GoogleTVRemote" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -417,6 +425,7 @@
 			files = (
 				B9EC1F916A89811B54517B3D /* AppIcon.svg in Resources */,
 				F6EA4DCE995B02FF97229F4A /* Assets.xcassets in Resources */,
+				52D4CFE0CE5A106E5E5C8DD1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,8 +590,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = L8RV535WTD;
 				INFOPLIST_FILE = GoogleTVRemote/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,8 +612,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = L8RV535WTD;
 				INFOPLIST_FILE = GoogleTVRemote/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

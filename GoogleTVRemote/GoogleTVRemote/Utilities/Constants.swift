@@ -33,6 +33,6 @@ enum Constants {
         static let vendor = "Apple"
         static let appName = "GoogleTVRemote"
         static let appBuild = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
-        static let version = "1.0"
+        static let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0.0"
     }
 }
