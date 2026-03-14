@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F043DA7B36FA83865F0EFC /* TVDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC555FF80F51CC12952F2B97 /* TVDevice.swift */; };
+		161B41049E6DBAD9F67FE158 /* KeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0B0FF55FE88CB6842359BF /* KeyboardViewModel.swift */; };
+		1967C853A3D4C154AA09749C /* PairingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDCD00EE292852F3FF15814 /* PairingViewModel.swift */; };
+		247F91D5B1799E97EE7D9358 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7F8F9A88814C56F9AC9A4F /* HapticManager.swift */; };
+		2BD2F9ACAEEB09C8BD4ADF7C /* DPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A0B374727CB1F3C79BCA5 /* DPadView.swift */; };
+		2BD4422A40DFBCCA65653078 /* RemoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E433097FCA719BBCDB755 /* RemoteButton.swift */; };
+		37511D7443C9547CD6EEBBE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FDEE35159E557219D4B32 /* SettingsView.swift */; };
+		37A1D227AC81D7D6333EE81C /* CertificateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4716AD105252AD25D1682515 /* CertificateGenerator.swift */; };
+		3C28B97C5DD2F3508FF117A7 /* CertificateGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1EA6E0D9BF745D6240DA08 /* CertificateGeneratorTests.swift */; };
+		4A2607F93FD8845A914B5B25 /* TVDeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB1E672C2E0B23CFF9FF266 /* TVDeviceRow.swift */; };
+		5200449A9C2EED66D934CA1E /* ManualIPSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB1287616553C76F09DEEA8 /* ManualIPSheet.swift */; };
+		537DEA36C1E98642BB97D0E7 /* TVRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200ADBD7C8E80A3DE8A43CA /* TVRemoteService.swift */; };
+		6ADF8E087A5E06E9C7B2BEA2 /* GoogleTVRemoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148BBEFB50B4A4E172F9E775 /* GoogleTVRemoteApp.swift */; };
+		786D0AAD9D3974563362C9CD /* KeychainServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B922F19F3E87088B46FD00C5 /* KeychainServiceTests.swift */; };
+		7A68B5F3FADE33FC14AC1FAF /* ConnectionStatusBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F94A5308A6FF368FB91911 /* ConnectionStatusBanner.swift */; };
+		7B384E2F50ACB17151DABECB /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC845E7D52742B57A35303 /* SettingsViewModel.swift */; };
+		7E28819349CB5D9FBBFB487F /* RemoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898C43569096BC3323DDAEDB /* RemoteViewModel.swift */; };
+		926CE3CE3C1B45F87D469C44 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078D0A870F6319CD0C84C995 /* KeychainService.swift */; };
+		97DFD0CF3E179A54E7A8FDE9 /* WakeOnLANService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBE0FDC9003F642C12CE04A /* WakeOnLANService.swift */; };
+		99455196483820DDE1ABC1F0 /* MediaControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7D8DBC36B9A3038B026E98 /* MediaControlsView.swift */; };
+		A6333F783A6C9C7CBE4F1EC0 /* WakeOnLANServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD31353A87278BD83340B9E /* WakeOnLANServiceTests.swift */; };
+		A8EBAA9F9B9F1C1C4B50B611 /* PairingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F8576788C9DB0288FB880 /* PairingView.swift */; };
+		AA23E21C96A9EFF3A5882754 /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C14629F2635426771678E /* DiscoveryView.swift */; };
+		AEEDAF1FFFBF513F6A0589D3 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BFDB7F888E12E3CAA3B9 /* NavigationButtonsView.swift */; };
+		B2EE2F37105AA31AF0C8B0B9 /* TVPairingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2742407AE2C8FCA82503A /* TVPairingService.swift */; };
+		C43988AA3CB616199C7F6A57 /* DiscoveryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA31FFAAF8FAFC1B8BC6F1D /* DiscoveryViewModel.swift */; };
+		C4783B548F2A1CC94D8D6C2B /* VolumeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4640EBF53AAFC4135860D /* VolumeControlView.swift */; };
+		CD59D4F0F9A44B8BA3F0A5ED /* ConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE3B55E353011E4B39927A9 /* ConnectionStatus.swift */; };
+		D45E250A1BBEF12860354CEE /* PINValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478482A153DC7E3520B4DDB7 /* PINValidationTests.swift */; };
+		D47824DBF794038337BF8EC1 /* AndroidTVRemoteControl in Frameworks */ = {isa = PBXBuildFile; productRef = 7A808515051F41B04C2B89C8 /* AndroidTVRemoteControl */; };
+		E09E09284C9149F4188A0DB9 /* PairingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD1F19AEC664684C8839B94 /* PairingStatus.swift */; };
+		E1066FB1966138B10B19E012 /* RemoteControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF474A13B385291B99E9EA3 /* RemoteControlView.swift */; };
+		E1388984863A8FED4FC3A214 /* TVDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BA5BF7632DDD0DFC3A92B1 /* TVDiscoveryService.swift */; };
+		E433FAA6CDC3797C39509935 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E6C11BECFC0CDF887B735 /* Constants.swift */; };
+		E5BC74F822B48AEE1E576C5B /* KeyboardInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37932E97B3ECD4C8307651B /* KeyboardInputView.swift */; };
+		E5CB42E40E9421044F0D4843 /* TouchpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46358CB56269FC3B9AA79215 /* TouchpadView.swift */; };
+		F57A68B1EB8C1F6047059FBB /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C8855223E9F76ED5AF9A7 /* Data+Extensions.swift */; };
+		F6EA4DCE995B02FF97229F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885B6BB3638547C9F162E13D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC63F90DEF037717DD870337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 441014C1A18F96CDBA835C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458BA52DAA80AE2D4A8A0C46;
+			remoteInfo = GoogleTVRemote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078D0A870F6319CD0C84C995 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		0D0B0FF55FE88CB6842359BF /* KeyboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewModel.swift; sourceTree = "<group>"; };
+		148BBEFB50B4A4E172F9E775 /* GoogleTVRemoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTVRemoteApp.swift; sourceTree = "<group>"; };
+		1BA2742407AE2C8FCA82503A /* TVPairingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVPairingService.swift; sourceTree = "<group>"; };
+		239FDEE35159E557219D4B32 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		243E6C11BECFC0CDF887B735 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2FD31353A87278BD83340B9E /* WakeOnLANServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLANServiceTests.swift; sourceTree = "<group>"; };
+		445C14629F2635426771678E /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
+		46358CB56269FC3B9AA79215 /* TouchpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchpadView.swift; sourceTree = "<group>"; };
+		4716AD105252AD25D1682515 /* CertificateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateGenerator.swift; sourceTree = "<group>"; };
+		478482A153DC7E3520B4DDB7 /* PINValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINValidationTests.swift; sourceTree = "<group>"; };
+		482F0D56568C32B7B5779A3C /* GoogleTVRemoteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GoogleTVRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F94A5308A6FF368FB91911 /* ConnectionStatusBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatusBanner.swift; sourceTree = "<group>"; };
+		4CBE0FDC9003F642C12CE04A /* WakeOnLANService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLANService.swift; sourceTree = "<group>"; };
+		55033218781BD956734B63EE /* GoogleTVRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTVRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF4640EBF53AAFC4135860D /* VolumeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlView.swift; sourceTree = "<group>"; };
+		65BA5BF7632DDD0DFC3A92B1 /* TVDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDiscoveryService.swift; sourceTree = "<group>"; };
+		683FFAC5A1A5A77D033648C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		694A0B374727CB1F3C79BCA5 /* DPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPadView.swift; sourceTree = "<group>"; };
+		6FF474A13B385291B99E9EA3 /* RemoteControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlView.swift; sourceTree = "<group>"; };
+		7EDCD00EE292852F3FF15814 /* PairingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingViewModel.swift; sourceTree = "<group>"; };
+		829C8855223E9F76ED5AF9A7 /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		885B6BB3638547C9F162E13D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898C43569096BC3323DDAEDB /* RemoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteViewModel.swift; sourceTree = "<group>"; };
+		8DE3B55E353011E4B39927A9 /* ConnectionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatus.swift; sourceTree = "<group>"; };
+		8FD1F19AEC664684C8839B94 /* PairingStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingStatus.swift; sourceTree = "<group>"; };
+		9A1EA6E0D9BF745D6240DA08 /* CertificateGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateGeneratorTests.swift; sourceTree = "<group>"; };
+		A200ADBD7C8E80A3DE8A43CA /* TVRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVRemoteService.swift; sourceTree = "<group>"; };
+		AB7D8DBC36B9A3038B026E98 /* MediaControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlsView.swift; sourceTree = "<group>"; };
+		AFB1287616553C76F09DEEA8 /* ManualIPSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualIPSheet.swift; sourceTree = "<group>"; };
+		B5FC845E7D52742B57A35303 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B751BFDB7F888E12E3CAA3B9 /* NavigationButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsView.swift; sourceTree = "<group>"; };
+		B922F19F3E87088B46FD00C5 /* KeychainServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServiceTests.swift; sourceTree = "<group>"; };
+		BA7F8F9A88814C56F9AC9A4F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		C37932E97B3ECD4C8307651B /* KeyboardInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardInputView.swift; sourceTree = "<group>"; };
+		CC555FF80F51CC12952F2B97 /* TVDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDevice.swift; sourceTree = "<group>"; };
+		D61E433097FCA719BBCDB755 /* RemoteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteButton.swift; sourceTree = "<group>"; };
+		EEB1E672C2E0B23CFF9FF266 /* TVDeviceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDeviceRow.swift; sourceTree = "<group>"; };
+		F06F8576788C9DB0288FB880 /* PairingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingView.swift; sourceTree = "<group>"; };
+		FCA31FFAAF8FAFC1B8BC6F1D /* DiscoveryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98A600060AA393B88696ADC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47824DBF794038337BF8EC1 /* AndroidTVRemoteControl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15427A9A82B1BF4FB585D64A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				829C8855223E9F76ED5AF9A7 /* Data+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3350A54ADF5258007A4FC197 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBDEB8DB37445E3CCB43DBFF /* Discovery */,
+				A2C5FC2B4110EF7129D2405D /* Keyboard */,
+				A51919FAF7D1F83A50B87F97 /* Pairing */,
+				9676F1DE05AEA9840F7F9984 /* Remote */,
+				CA4A5A5F460466D01E94CF3A /* Settings */,
+				4BAB2553116B230D84330272 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40BD50BA245B28575FB6F96D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				148BBEFB50B4A4E172F9E775 /* GoogleTVRemoteApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4BAB2553116B230D84330272 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				48F94A5308A6FF368FB91911 /* ConnectionStatusBanner.swift */,
+				D61E433097FCA719BBCDB755 /* RemoteButton.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4CFDCC070B3C6BC0347A0761 /* GoogleTVRemote */ = {
+			isa = PBXGroup;
+			children = (
+				683FFAC5A1A5A77D033648C4 /* Info.plist */,
+				40BD50BA245B28575FB6F96D /* App */,
+				15427A9A82B1BF4FB585D64A /* Extensions */,
+				9BDEFD191E896177785A1BD4 /* Models */,
+				81F11B5625F9E755E2BCBC84 /* Resources */,
+				DC3822802868CE9393E5A30C /* Services */,
+				F031D7C9D9350684708D0E46 /* Utilities */,
+				BF2F0A014D20333C0A3B13A6 /* ViewModels */,
+				3350A54ADF5258007A4FC197 /* Views */,
+			);
+			path = GoogleTVRemote;
+			sourceTree = "<group>";
+		};
+		55CC5DA367B446FFDE8CE428 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A200ADBD7C8E80A3DE8A43CA /* TVRemoteService.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		743778B63DA7506C4F349451 /* WakeOnLAN */ = {
+			isa = PBXGroup;
+			children = (
+				4CBE0FDC9003F642C12CE04A /* WakeOnLANService.swift */,
+			);
+			path = WakeOnLAN;
+			sourceTree = "<group>";
+		};
+		7F7B8EDC4BF552FF51D47FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55033218781BD956734B63EE /* GoogleTVRemote.app */,
+				482F0D56568C32B7B5779A3C /* GoogleTVRemoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F11B5625F9E755E2BCBC84 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				885B6BB3638547C9F162E13D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		937C364ADB1F748DFCDA0A2E /* GoogleTVRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A1EA6E0D9BF745D6240DA08 /* CertificateGeneratorTests.swift */,
+				B922F19F3E87088B46FD00C5 /* KeychainServiceTests.swift */,
+				478482A153DC7E3520B4DDB7 /* PINValidationTests.swift */,
+				2FD31353A87278BD83340B9E /* WakeOnLANServiceTests.swift */,
+			);
+			path = GoogleTVRemoteTests;
+			sourceTree = "<group>";
+		};
+		9676F1DE05AEA9840F7F9984 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				694A0B374727CB1F3C79BCA5 /* DPadView.swift */,
+				AB7D8DBC36B9A3038B026E98 /* MediaControlsView.swift */,
+				B751BFDB7F888E12E3CAA3B9 /* NavigationButtonsView.swift */,
+				6FF474A13B385291B99E9EA3 /* RemoteControlView.swift */,
+				46358CB56269FC3B9AA79215 /* TouchpadView.swift */,
+				5DF4640EBF53AAFC4135860D /* VolumeControlView.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		9BDEFD191E896177785A1BD4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DE3B55E353011E4B39927A9 /* ConnectionStatus.swift */,
+				8FD1F19AEC664684C8839B94 /* PairingStatus.swift */,
+				CC555FF80F51CC12952F2B97 /* TVDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2C5FC2B4110EF7129D2405D /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C37932E97B3ECD4C8307651B /* KeyboardInputView.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		A51919FAF7D1F83A50B87F97 /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				F06F8576788C9DB0288FB880 /* PairingView.swift */,
+			);
+			path = Pairing;
+			sourceTree = "<group>";
+		};
+		B4DC5560AECC8FDD97887E78 = {
+			isa = PBXGroup;
+			children = (
+				4CFDCC070B3C6BC0347A0761 /* GoogleTVRemote */,
+				937C364ADB1F748DFCDA0A2E /* GoogleTVRemoteTests */,
+				7F7B8EDC4BF552FF51D47FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2F0A014D20333C0A3B13A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FCA31FFAAF8FAFC1B8BC6F1D /* DiscoveryViewModel.swift */,
+				0D0B0FF55FE88CB6842359BF /* KeyboardViewModel.swift */,
+				7EDCD00EE292852F3FF15814 /* PairingViewModel.swift */,
+				898C43569096BC3323DDAEDB /* RemoteViewModel.swift */,
+				B5FC845E7D52742B57A35303 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CA4A5A5F460466D01E94CF3A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				239FDEE35159E557219D4B32 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CBDEB8DB37445E3CCB43DBFF /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				445C14629F2635426771678E /* DiscoveryView.swift */,
+				AFB1287616553C76F09DEEA8 /* ManualIPSheet.swift */,
+				EEB1E672C2E0B23CFF9FF266 /* TVDeviceRow.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		CCC56A073105DC0157B4E970 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				65BA5BF7632DDD0DFC3A92B1 /* TVDiscoveryService.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		CE8D699C031DA2581B2BA8C8 /* Certificate */ = {
+			isa = PBXGroup;
+			children = (
+				4716AD105252AD25D1682515 /* CertificateGenerator.swift */,
+				078D0A870F6319CD0C84C995 /* KeychainService.swift */,
+			);
+			path = Certificate;
+			sourceTree = "<group>";
+		};
+		DC3822802868CE9393E5A30C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE8D699C031DA2581B2BA8C8 /* Certificate */,
+				CCC56A073105DC0157B4E970 /* Discovery */,
+				E4C45B48507A9E6D3370F128 /* Pairing */,
+				55CC5DA367B446FFDE8CE428 /* Remote */,
+				743778B63DA7506C4F349451 /* WakeOnLAN */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E4C45B48507A9E6D3370F128 /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				1BA2742407AE2C8FCA82503A /* TVPairingService.swift */,
+			);
+			path = Pairing;
+			sourceTree = "<group>";
+		};
+		F031D7C9D9350684708D0E46 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				243E6C11BECFC0CDF887B735 /* Constants.swift */,
+				BA7F8F9A88814C56F9AC9A4F /* HapticManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458BA52DAA80AE2D4A8A0C46 /* GoogleTVRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF63C9A8A502228544BB193 /* Build configuration list for PBXNativeTarget "GoogleTVRemote" */;
+			buildPhases = (
+				E9155A439F5F9C334F835949 /* Sources */,
+				F97555E8475F62FD2C1749B5 /* Resources */,
+				98A600060AA393B88696ADC8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTVRemote;
+			packageProductDependencies = (
+				7A808515051F41B04C2B89C8 /* AndroidTVRemoteControl */,
+			);
+			productName = GoogleTVRemote;
+			productReference = 55033218781BD956734B63EE /* GoogleTVRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B313F31CA69EB45250493320 /* GoogleTVRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE2D80D15368E7A7E255CA6 /* Build configuration list for PBXNativeTarget "GoogleTVRemoteTests" */;
+			buildPhases = (
+				430A12BB1DB372AE421A7B37 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C22CFB323277F6843AF317C /* PBXTargetDependency */,
+			);
+			name = GoogleTVRemoteTests;
+			packageProductDependencies = (
+			);
+			productName = GoogleTVRemoteTests;
+			productReference = 482F0D56568C32B7B5779A3C /* GoogleTVRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441014C1A18F96CDBA835C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 743EAC3E3E324928B0841C14 /* Build configuration list for PBXProject "GoogleTVRemote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B4DC5560AECC8FDD97887E78;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				61631D76039D96D9499A6F4A /* XCRemoteSwiftPackageReference "AndroidTVRemoteControl" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458BA52DAA80AE2D4A8A0C46 /* GoogleTVRemote */,
+				B313F31CA69EB45250493320 /* GoogleTVRemoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F97555E8475F62FD2C1749B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EA4DCE995B02FF97229F4A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		430A12BB1DB372AE421A7B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C28B97C5DD2F3508FF117A7 /* CertificateGeneratorTests.swift in Sources */,
+				786D0AAD9D3974563362C9CD /* KeychainServiceTests.swift in Sources */,
+				D45E250A1BBEF12860354CEE /* PINValidationTests.swift in Sources */,
+				A6333F783A6C9C7CBE4F1EC0 /* WakeOnLANServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9155A439F5F9C334F835949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A1D227AC81D7D6333EE81C /* CertificateGenerator.swift in Sources */,
+				CD59D4F0F9A44B8BA3F0A5ED /* ConnectionStatus.swift in Sources */,
+				7A68B5F3FADE33FC14AC1FAF /* ConnectionStatusBanner.swift in Sources */,
+				E433FAA6CDC3797C39509935 /* Constants.swift in Sources */,
+				2BD2F9ACAEEB09C8BD4ADF7C /* DPadView.swift in Sources */,
+				F57A68B1EB8C1F6047059FBB /* Data+Extensions.swift in Sources */,
+				AA23E21C96A9EFF3A5882754 /* DiscoveryView.swift in Sources */,
+				C43988AA3CB616199C7F6A57 /* DiscoveryViewModel.swift in Sources */,
+				6ADF8E087A5E06E9C7B2BEA2 /* GoogleTVRemoteApp.swift in Sources */,
+				247F91D5B1799E97EE7D9358 /* HapticManager.swift in Sources */,
+				E5BC74F822B48AEE1E576C5B /* KeyboardInputView.swift in Sources */,
+				161B41049E6DBAD9F67FE158 /* KeyboardViewModel.swift in Sources */,
+				926CE3CE3C1B45F87D469C44 /* KeychainService.swift in Sources */,
+				5200449A9C2EED66D934CA1E /* ManualIPSheet.swift in Sources */,
+				99455196483820DDE1ABC1F0 /* MediaControlsView.swift in Sources */,
+				AEEDAF1FFFBF513F6A0589D3 /* NavigationButtonsView.swift in Sources */,
+				E09E09284C9149F4188A0DB9 /* PairingStatus.swift in Sources */,
+				A8EBAA9F9B9F1C1C4B50B611 /* PairingView.swift in Sources */,
+				1967C853A3D4C154AA09749C /* PairingViewModel.swift in Sources */,
+				2BD4422A40DFBCCA65653078 /* RemoteButton.swift in Sources */,
+				E1066FB1966138B10B19E012 /* RemoteControlView.swift in Sources */,
+				7E28819349CB5D9FBBFB487F /* RemoteViewModel.swift in Sources */,
+				37511D7443C9547CD6EEBBE2 /* SettingsView.swift in Sources */,
+				7B384E2F50ACB17151DABECB /* SettingsViewModel.swift in Sources */,
+				09F043DA7B36FA83865F0EFC /* TVDevice.swift in Sources */,
+				4A2607F93FD8845A914B5B25 /* TVDeviceRow.swift in Sources */,
+				E1388984863A8FED4FC3A214 /* TVDiscoveryService.swift in Sources */,
+				B2EE2F37105AA31AF0C8B0B9 /* TVPairingService.swift in Sources */,
+				537DEA36C1E98642BB97D0E7 /* TVRemoteService.swift in Sources */,
+				E5CB42E40E9421044F0D4843 /* TouchpadView.swift in Sources */,
+				C4783B548F2A1CC94D8D6C2B /* VolumeControlView.swift in Sources */,
+				97DFD0CF3E179A54E7A8FDE9 /* WakeOnLANService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C22CFB323277F6843AF317C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458BA52DAA80AE2D4A8A0C46 /* GoogleTVRemote */;
+			targetProxy = BC63F90DEF037717DD870337 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CB8FD5371ECACD199D7D3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googletv-remote.GoogleTVRemoteTests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleTVRemote.app/GoogleTVRemote";
+			};
+			name = Release;
+		};
+		43888BD5C4796370DC67FD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googletv-remote.GoogleTVRemoteTests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleTVRemote.app/GoogleTVRemote";
+			};
+			name = Debug;
+		};
+		7F10DB92F58B1902EA36DD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		86AAA21799C5C2F08F34F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8RV535WTD;
+				INFOPLIST_FILE = GoogleTVRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googletv-remote.app";
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2BD94E253258380F082D06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8RV535WTD;
+				INFOPLIST_FILE = GoogleTVRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.googletv-remote.app";
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8123885607AFFFE4AEF40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF63C9A8A502228544BB193 /* Build configuration list for PBXNativeTarget "GoogleTVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BD94E253258380F082D06B /* Debug */,
+				86AAA21799C5C2F08F34F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		743EAC3E3E324928B0841C14 /* Build configuration list for PBXProject "GoogleTVRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8123885607AFFFE4AEF40A /* Debug */,
+				7F10DB92F58B1902EA36DD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ECE2D80D15368E7A7E255CA6 /* Build configuration list for PBXNativeTarget "GoogleTVRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43888BD5C4796370DC67FD14 /* Debug */,
+				1CB8FD5371ECACD199D7D3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61631D76039D96D9499A6F4A /* XCRemoteSwiftPackageReference "AndroidTVRemoteControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/odyshewroman/AndroidTVRemoteControl";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.13;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A808515051F41B04C2B89C8 /* AndroidTVRemoteControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61631D76039D96D9499A6F4A /* XCRemoteSwiftPackageReference "AndroidTVRemoteControl" */;
+			productName = AndroidTVRemoteControl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 441014C1A18F96CDBA835C6B /* Project object */;
+}

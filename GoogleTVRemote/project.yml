@@ -1,0 +1,64 @@
+name: GoogleTVRemote
+options:
+  bundleIdPrefix: com.googletv-remote
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+
+packages:
+  AndroidTVRemoteControl:
+    url: https://github.com/odyshewroman/AndroidTVRemoteControl
+    from: "2.4.13"
+
+schemes:
+  GoogleTVRemote:
+    build:
+      targets:
+        GoogleTVRemote: all
+        GoogleTVRemoteTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - GoogleTVRemoteTests
+
+targets:
+  GoogleTVRemote:
+    type: application
+    platform: iOS
+    sources:
+      - path: GoogleTVRemote
+    settings:
+      base:
+        INFOPLIST_FILE: GoogleTVRemote/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.googletv-remote.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: "NO"
+    dependencies:
+      - package: AndroidTVRemoteControl
+    info:
+      path: GoogleTVRemote/Info.plist
+      properties:
+        NSLocalNetworkUsageDescription: "This app needs local network access to discover and control Google TV devices on your Wi-Fi network."
+        NSBonjourServices:
+          - "_androidtvremote2._tcp"
+        LSApplicationQueriesSchemes:
+          - googlehome
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+
+  GoogleTVRemoteTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: GoogleTVRemoteTests
+    dependencies:
+      - target: GoogleTVRemote
+    settings:
+      base:
+        SWIFT_VERSION: "5.9"
+        GENERATE_INFOPLIST_FILE: "YES"
