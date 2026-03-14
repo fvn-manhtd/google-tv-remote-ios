@@ -59,13 +59,9 @@
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.08)"/>
     </filter>
 
-    <!-- iOS clip -->
-    <clipPath id="iosClip">
-      <rect x="0" y="0" width="1024" height="1024" rx="224" ry="224"/>
-    </clipPath>
   </defs>
 
-  <g clip-path="url(#iosClip)">
+  <g>
     <!-- White background -->
     <rect width="1024" height="1024" fill="#ffffff"/>
 

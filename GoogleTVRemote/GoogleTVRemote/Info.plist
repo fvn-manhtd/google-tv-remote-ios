@@ -18,8 +18,10 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>UILaunchScreen</key>
-	<dict/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlehome</string>
+	</array>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsLocalNetworking</key>
@@ -31,9 +33,18 @@
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>This app needs local network access to discover and control Google TV devices on your Wi-Fi network.</string>
-	<key>LSApplicationQueriesSchemes</key>
+	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>googlehome</string>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

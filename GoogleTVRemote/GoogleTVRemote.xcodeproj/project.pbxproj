@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,6 +32,7 @@
 		AA23E21C96A9EFF3A5882754 /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C14629F2635426771678E /* DiscoveryView.swift */; };
 		AEEDAF1FFFBF513F6A0589D3 /* NavigationButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751BFDB7F888E12E3CAA3B9 /* NavigationButtonsView.swift */; };
 		B2EE2F37105AA31AF0C8B0B9 /* TVPairingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2742407AE2C8FCA82503A /* TVPairingService.swift */; };
+		B9EC1F916A89811B54517B3D /* AppIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 35852246C24E13362D22EBB1 /* AppIcon.svg */; };
 		C43988AA3CB616199C7F6A57 /* DiscoveryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA31FFAAF8FAFC1B8BC6F1D /* DiscoveryViewModel.swift */; };
 		C4783B548F2A1CC94D8D6C2B /* VolumeControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4640EBF53AAFC4135860D /* VolumeControlView.swift */; };
 		CD59D4F0F9A44B8BA3F0A5ED /* ConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE3B55E353011E4B39927A9 /* ConnectionStatus.swift */; };
@@ -65,6 +66,7 @@
 		239FDEE35159E557219D4B32 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		243E6C11BECFC0CDF887B735 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2FD31353A87278BD83340B9E /* WakeOnLANServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLANServiceTests.swift; sourceTree = "<group>"; };
+		35852246C24E13362D22EBB1 /* AppIcon.svg */ = {isa = PBXFileReference; path = AppIcon.svg; sourceTree = "<group>"; };
 		445C14629F2635426771678E /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
 		46358CB56269FC3B9AA79215 /* TouchpadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchpadView.swift; sourceTree = "<group>"; };
 		4716AD105252AD25D1682515 /* CertificateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateGenerator.swift; sourceTree = "<group>"; };
@@ -72,7 +74,7 @@
 		482F0D56568C32B7B5779A3C /* GoogleTVRemoteTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GoogleTVRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F94A5308A6FF368FB91911 /* ConnectionStatusBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatusBanner.swift; sourceTree = "<group>"; };
 		4CBE0FDC9003F642C12CE04A /* WakeOnLANService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeOnLANService.swift; sourceTree = "<group>"; };
-		55033218781BD956734B63EE /* GoogleTVRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTVRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55033218781BD956734B63EE /* GoogleTVRemote.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GoogleTVRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF4640EBF53AAFC4135860D /* VolumeControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeControlView.swift; sourceTree = "<group>"; };
 		65BA5BF7632DDD0DFC3A92B1 /* TVDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDiscoveryService.swift; sourceTree = "<group>"; };
 		683FFAC5A1A5A77D033648C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		81F11B5625F9E755E2BCBC84 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				35852246C24E13362D22EBB1 /* AppIcon.svg */,
 				885B6BB3638547C9F162E13D /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -397,6 +400,7 @@
 			packageReferences = (
 				61631D76039D96D9499A6F4A /* XCRemoteSwiftPackageReference "AndroidTVRemoteControl" */,
 			);
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -411,6 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9EC1F916A89811B54517B3D /* AppIcon.svg in Resources */,
 				F6EA4DCE995B02FF97229F4A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,12 +488,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.googletv-remote.GoogleTVRemoteTests";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
@@ -501,12 +506,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.googletv-remote.GoogleTVRemoteTests";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
@@ -577,7 +582,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L8RV535WTD;
 				INFOPLIST_FILE = GoogleTVRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -598,7 +602,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L8RV535WTD;
 				INFOPLIST_FILE = GoogleTVRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
